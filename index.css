@@ -26,7 +26,7 @@
     left: 1035px;
     position: absolute;
     top: -1px;
-    background-image: url("image/line.png")
+    background-image: url("image/line.png");
 }
 
 .menu-address {
@@ -71,22 +71,55 @@ i {
     top: 35px;
     left: 200px;
     border: solid 3px #fff;
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     text-align: center;
     padding: 25px;
-    /* vertical-align: middle; */
+    vertical-align: middle;
     width: 52px;
     height: 52px;
     cursor: pointer;
 
 }
 
-.menu-list {
+.menu-list p,
+.menu-list i {
     /* display: none; */
     /* float: right; */
-    position: absolute;
+    /* width: 100px; */
+    /* height: 52px; */
+    /* position: absolute; */
+    /* padding: 15px; */
+    width: 108px;
+    height: 66px;
+    float: left;
+    padding-top: 42px;
+    /* vertical-align: middle; */
+    /* display: inline; */
+    /* display: inline; */
 
 }
+
+.menu-list i {
+    margin: 0;
+    /* width: 40px; */
+}
+
+
+.menu-list {
+    display: none;
+    /* float: right; */
+    width: 648px;
+    height: 108px;
+    position: absolute;
+    text-align: center;
+    top: 34px;
+    left: 696px;
+    background-color: #f8c255;
+    /* float: left; */
+    /* display: inline; */
+
+}
+
 
 .menu-item i {
 
